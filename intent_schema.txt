@@ -1,0 +1,286 @@
+{
+  "intents": [
+    {
+      "intent": "onffOutletQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        }
+      ]
+    },
+    {
+      "intent": "onffDurationQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedRepeatQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "schedule",
+          "type": "LIST_OF_SCHEDULE"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedDaysQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "startDay",
+          "type": "LIST_OF_DAYS"
+        },
+        {
+          "name": "endDay",
+          "type": "LIST_OF_DAYS"
+        }
+      ]
+    },
+    {
+      "intent": "selectOutlet",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "onffOutletS",
+      "slots": [
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        }
+      ]
+    },
+    {
+      "intent": "onffDurationS",
+      "slots": [
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedS",
+      "slots": [
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedRepeatS",
+      "slots": [
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "schedule",
+          "type": "LIST_OF_SCHEDULE"
+        }
+      ]
+    },
+    {
+      "intent": "onffTimeSchedDaysS",
+      "slots": [
+        {
+          "name": "statusOutlet",
+          "type": "LIST_OF_STATUS"
+        },
+        {
+          "name": "startTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "endTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "startDay",
+          "type": "LIST_OF_DAYS"
+        },
+        {
+          "name": "endDay",
+          "type": "LIST_OF_DAYS"
+        }
+      ]
+    },
+    {
+      "intent": "clearSchedQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "clearSchedS"
+    },
+    {
+      "intent": "deselectOutlet"
+    },
+    {
+      "intent": "powerOverall",
+      "slots": [
+        {
+          "name": "relativeDay",
+          "type": "LIST_OF_RELATIVE_DAYS"
+        }
+      ]
+    },
+    {
+      "intent": "powerOverallDuration",
+      "slots": [
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "powerOutletQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "relativeDay",
+          "type": "LIST_OF_RELATIVE_DAYS"
+        }
+      ]
+    },
+    {
+      "intent": "powerOutletDurationQ",
+      "slots": [
+        {
+          "name": "numOutlet",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "powerOutletS",
+      "slots": [
+        {
+          "name": "relativeDay",
+          "type": "LIST_OF_RELATIVE_DAYS"
+        }
+      ]
+    },
+    {
+      "intent": "powerOutletDurationS",
+      "slots": [
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+onffOutletQ turn outlet {numOutlet} {statusOutlet}
+onffOutletQ turn {statusOutlet} outlet {numOutlet}
+onffDurationQ turn outlet {numOutlet} {statusOutlet} for {duration}
+onffDurationQ turn {statusOutlet} outlet {numOutlet} for {duration}
+onffTimeSchedQ turn outlet {numOutlet} {statusOutlet} from {startTime} to {endTime}
+onffTimeSchedQ turn {statusOutlet} outlet {numOutlet} from {startTime} to {endTime}
+onffTimeSchedRepeatQ turn outlet {numOutlet} {statusOutlet} from {startTime} to {endTime} {schedule}
+onffTimeSchedRepeatQ turn {statusOutlet} outlet {numOutlet} from {startTime} to {endTime} {schedule}
+onffTimeSchedRepeatQ turn outlet {numOutlet} {statusOutlet} from {startTime} to {endTime} on {schedule}
+onffTimeSchedRepeatQ turn {statusOutlet} outlet {numOutlet} from {startTime} to {endTime} on {schedule}
+onffTimeSchedDaysQ turn outlet {numOutlet} {statusOutlet} from {startTime} to {endTime} {startDay} through {endDay}
+onffTimeSchedDaysQ turn {statusOutlet} outlet {numOutlet} from {startTime} to {endTime} {startDay} through {endDay}
+selectOutlet select outlet {numOutlet}
+onffOutletS turn {statusOutlet}
+onffDurationS turn {statusOutlet} for {duration}
+onffTimeSchedS turn {statusOutlet} from {startTime} to {endTime}
+onffTimeSchedS turn {statusOutlet} from {startTime} to {endTime}
+onffTimeSchedRepeatS turn {statusOutlet} from {startTime} to {endTime} {schedule}
+onffTimeSchedRepeatS turn {statusOutlet} from {startTime} to {endTime} {schedule}
+onffTimeSchedRepeatS turn {statusOutlet} from {startTime} to {endTime} on {schedule}
+onffTimeSchedRepeatS turn {statusOutlet} from {startTime} to {endTime} on {schedule}
+onffTimeSchedDaysS turn {statusOutlet} from {startTime} to {endTime} {startDay} through {endDay}
+onffTimeSchedDaysS turn {statusOutlet} from {startTime} to {endTime} {startDay} through {endDay}
+clearSchedQ clear schedule of outlet {numOutlet}
+clearSchedS clear schedule
+deselectOutlet deselect outlet
+powerOverall check overall power consumption of {relativeDay}
+powerOverall check overall power consumption for {relativeDay}
+powerOverallDuration check overall power consumption of last {duration}
+powerOverallDuration check overall power consumption for last {duration}
+powerOutletQ check power consumption of outlet {numOutlet} for {relativeDay}
+powerOutletDurationQ check power consumption of outlet {numOutlet} for last {duration}
+powerOutletS check power consumption of {relativeDay}
+powerOutletS check power consumption for {relativeDay}
+powerOutletDurationS check power consumption of last {duration}
+powerOutletDurationS check power consumption for last {duration}
